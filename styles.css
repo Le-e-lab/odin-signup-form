@@ -9,6 +9,8 @@ body {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    @import url(Norse-Bold.otf);
+    font-family: 'Norse Bold', sans-serif;
 }
 
 .img {
@@ -87,3 +89,12 @@ form {
     font-size: 1.2em;
 }
 
+.member {
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.member a {
+    color: brown;
+    text-decoration: none;
+}
